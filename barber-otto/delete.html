@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Удаление аккаунта — Barber OTTO</title>
+<style>
+  :root{
+    --ink:#16181d;--ink-2:#4a4f5a;--ink-3:#7c828e;
+    --rule:#dcdfe5;--paper:#fbfbfa;--mark:#1b4d3e;--mark-soft:#eaf2ef;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font:400 17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+  .wrap{max-width:40rem;margin:0 auto;padding:3rem 1.25rem 5rem}
+  header{border-bottom:2px solid var(--ink);padding-bottom:1.5rem;margin-bottom:2.5rem}
+  .eyebrow{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin:0 0 .75rem}
+  h1{font-size:clamp(1.6rem,5vw,2.15rem);line-height:1.2;font-weight:650;letter-spacing:-.02em;margin:0}
+  h2{
+    font-size:1.05rem;font-weight:650;margin:2.5rem 0 .85rem;
+    padding-top:1.25rem;border-top:1px solid var(--rule)
+  }
+  p{margin:0 0 .85rem}
+  ul{margin:0 0 .95rem;padding-left:1.15rem}
+  li{margin-bottom:.4rem}
+  a{color:var(--mark);text-underline-offset:2px}
+  ol.steps{list-style:none;counter-reset:s;padding:0;margin:0 0 1.25rem}
+  ol.steps li{
+    counter-increment:s;position:relative;padding-left:2.4rem;margin-bottom:.9rem
+  }
+  ol.steps li::before{
+    content:counter(s);position:absolute;left:0;top:.05rem;
+    width:1.7rem;height:1.7rem;border-radius:50%;
+    background:var(--mark);color:#fff;
+    font-size:.82rem;font-weight:600;
+    display:flex;align-items:center;justify-content:center
+  }
+  .note{
+    background:var(--mark-soft);border-left:3px solid var(--mark);
+    padding:.9rem 1.1rem;border-radius:0 8px 8px 0;margin:1.25rem 0;font-size:.94rem
+  }
+  .note p:last-child{margin:0}
+  table{width:100%;border-collapse:collapse;font-size:.92rem;margin:0 0 1rem}
+  th,td{text-align:left;vertical-align:top;padding:.6rem .7rem;border-bottom:1px solid var(--rule)}
+  th{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:600;border-bottom:1px solid var(--ink)}
+  footer{margin-top:3.5rem;padding-top:1.5rem;border-top:2px solid var(--ink);font-size:.86rem;color:var(--ink-2)}
+  @media (max-width:480px){body{font-size:16px}.wrap{padding:2rem 1rem 3.5rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Мобильное приложение «Barber OTTO»</p>
+  <h1>Удаление аккаунта и данных</h1>
+</header>
+
+<p>Аккаунт можно удалить двумя способами: прямо в Приложении или по электронной почте.</p>
+
+<h2>Способ 1. В Приложении</h2>
+<ol class="steps">
+  <li>Откройте Приложение и войдите в аккаунт.</li>
+  <li>Перейдите на вкладку <b>Профиль</b>.</li>
+  <li>Нажмите на карточку с вашим именем и телефоном вверху экрана — откроется <b>Данные аккаунта</b>.</li>
+  <li>Внизу экрана нажмите <b>Удалить аккаунт</b> и подтвердите действие.</li>
+</ol>
+<p>Данные удаляются сразу, без периода ожидания. Восстановить их нельзя.</p>
+
+<h2>Способ 2. По электронной почте</h2>
+<p>Если доступа к Приложению нет, отправьте письмо на <a href="mailto:stereo-tactic@mail.ru?subject=Удаление%20аккаунта%20Barber%20OTTO">stereo-tactic@mail.ru</a> с темой «Удаление аккаунта» и укажите номер телефона, на который зарегистрирован аккаунт.</p>
+<p>Заявка обрабатывается в течение 30 дней. Перед удалением мы можем связаться с вами по указанному номеру, чтобы подтвердить, что заявку подали именно вы.</p>
+
+<h2>Что будет удалено</h2>
+<table>
+  <tr><th>Данные</th><th>Что происходит</th></tr>
+  <tr><td>Профиль: номер телефона и имя</td><td>Удаляется безвозвратно</td></tr>
+  <tr><td>Привязка устройства к уведомлениям</td><td>Удаляется безвозвратно</td></tr>
+  <tr><td>История уведомлений на сервере</td><td>Удаляется безвозвратно</td></tr>
+  <tr><td>Запланированные напоминания о визитах</td><td>Отменяются и удаляются</td></tr>
+  <tr><td>Токены авторизации</td><td>Отзываются немедленно</td></tr>
+</table>
+
+<h2>Что остаётся</h2>
+<div class="note">
+  <p><b>Карточка клиента в системе барбершопа.</b> История ваших визитов хранится в учётной системе YCLIENTS, которую ведёт барбершоп. Удаление аккаунта в Приложении её не затрагивает.</p>
+  <p>Чтобы удалить и карточку клиента, напишите отдельно на <a href="mailto:stereo-tactic@mail.ru?subject=Удаление%20карточки%20клиента">stereo-tactic@mail.ru</a>.</p>
+</div>
+
+<p><b>Служебные журналы.</b> Сведения о событиях записи сохраняются в технических журналах и удаляются автоматически через 30 дней с момента события. Удаление аккаунта этот срок не сокращает: журналы нужны для диагностики сбоев и не используются ни для каких других целей.</p>
+
+<p>Подробнее о том, какие данные обрабатываются, — в <a href="./privacy.html">Политике конфиденциальности</a>.</p>
+
+<footer>
+  <p><b>Оператор:</b> ООО «Чоп-Чоп Самара», ИНН 6315649777, ОГРН 1136315002031, 443010, г. Самара, ул. Некрасовская, д. 56.</p>
+  <p>Вопросы: <a href="mailto:stereo-tactic@mail.ru">stereo-tactic@mail.ru</a></p>
+</footer>
+
+</div>
+</body>
+</html>
